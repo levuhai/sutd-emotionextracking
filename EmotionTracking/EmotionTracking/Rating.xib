@@ -25,7 +25,7 @@
                     </constraints>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="gR5-ey-Z9w">
-                    <rect key="frame" x="138" y="30" width="205" height="205"/>
+                    <rect key="frame" x="143" y="50" width="195" height="195"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="gR5-ey-Z9w" secondAttribute="height" multiplier="1:1" id="qOf-iP-S2B"/>
                     </constraints>
@@ -35,9 +35,9 @@
                 <constraint firstAttribute="trailing" secondItem="JbF-XA-06Z" secondAttribute="trailing" id="2dU-qf-V5K"/>
                 <constraint firstItem="JbF-XA-06Z" firstAttribute="leading" secondItem="ocX-nG-zVu" secondAttribute="leading" id="PMp-Ah-shZ"/>
                 <constraint firstAttribute="centerX" secondItem="gR5-ey-Z9w" secondAttribute="centerX" id="QMT-a7-HHo"/>
-                <constraint firstItem="gR5-ey-Z9w" firstAttribute="top" secondItem="JbF-XA-06Z" secondAttribute="bottom" constant="60" id="VON-4e-d24"/>
+                <constraint firstItem="gR5-ey-Z9w" firstAttribute="top" secondItem="JbF-XA-06Z" secondAttribute="bottom" constant="50" id="VON-4e-d24"/>
                 <constraint firstItem="JbF-XA-06Z" firstAttribute="top" secondItem="ocX-nG-zVu" secondAttribute="top" id="fTa-8h-GwP"/>
-                <constraint firstAttribute="bottom" secondItem="gR5-ey-Z9w" secondAttribute="bottom" constant="30" id="sug-iX-Ehs"/>
+                <constraint firstAttribute="bottom" secondItem="gR5-ey-Z9w" secondAttribute="bottom" constant="50" id="sug-iX-Ehs"/>
             </constraints>
             <connections>
                 <outlet property="dummyView" destination="gR5-ey-Z9w" id="yhI-uW-lSI"/>

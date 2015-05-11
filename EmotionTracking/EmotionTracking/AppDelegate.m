@@ -22,7 +22,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [self.window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
-    //[self.window toggleFullScreen:nil];
+    [self.window toggleFullScreen:nil];
     // Load screen data
     _screens = [[AppService sharedInstance] screenData];
     

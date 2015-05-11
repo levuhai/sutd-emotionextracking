@@ -121,6 +121,7 @@
 				D7B1C8351B00729F0018777A /* View */,
 				D7B1C8341B0072970018777A /* Cateogry */,
 				D7B1C8161B0071FA0018777A /* AppDelegate.h */,
+				D7B1C8561B0073DC0018777A /* Screens.plist */,
 				D7B1C8171B0071FA0018777A /* AppDelegate.m */,
 				D7B1C81B1B0071FA0018777A /* Images.xcassets */,
 				D7B1C81D1B0071FA0018777A /* MainMenu.xib */,
@@ -160,7 +161,6 @@
 		D7B1C8341B0072970018777A /* Cateogry */ = {
 			isa = PBXGroup;
 			children = (
-				D7B1C8561B0073DC0018777A /* Screens.plist */,
 				D7B1C8371B0072CD0018777A /* MouseEventView.h */,
 				D7B1C8381B0072CD0018777A /* MouseEventView.m */,
 				D7B1C8391B0072CD0018777A /* NSMutableArray+Shuffling.h */,

@@ -33,11 +33,12 @@
                                             selector:@selector(updateProgess)
                                             userInfo:nil
                                              repeats:YES];
+    
     self.wantsLayer = NO;
 }
 
-- (void)viewDidMoveToWindow {
-    
+- (void)viewDidMoveToSuperview {
+    [self moveMouse];
 }
 
 - (void)updateProgess {
@@ -211,6 +212,8 @@
                                                CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2),
                                                kCGMouseButtonLeft // ignored
                                                );
+    _pointer.x = self.bounds.size.width/2;
+    _pointer.y = self.bounds.size.height/2;
     CGEventPost(kCGHIDEventTap, move2);
 }
 
