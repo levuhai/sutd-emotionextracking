@@ -9,6 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import <AVFoundation/AVFoundation.h>
 
+@class BaseView;
+
 @interface RatingView : NSView {
     NSTrackingArea *_trackingArea;
     NSRect _trackingRect;
@@ -18,6 +20,7 @@
 }
 
 @property (strong) IBOutlet NSView *dummyView;
+@property (weak) BaseView *parentVC;
 @property (nonatomic) float progress;
 
 - (void)moveMouse;

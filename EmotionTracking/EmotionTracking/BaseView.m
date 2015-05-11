@@ -88,12 +88,28 @@
         [viewLayer setBackgroundColor:[[NSColor whiteColor] CGColor]]; //RGB plus Alpha Channel
         [self.view setWantsLayer:YES]; // view's backing store is using a Core Animation Layer
         [self.view setLayer:viewLayer];
+    } else {
+        _stringData = [[NSMutableString alloc] init];
+        ((RatingView*)self.view).parentVC = self;
     }
+}
+
+- (void)appendDataX:(float)x Y:(float)y {
+    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+    [format setDateFormat:@"yyyy-MM-dd HH:mm:ss:SSSS"];
+    NSDate *now = [[NSDate alloc] init];
+    NSString *dateString = [format stringFromDate:now];
+    
+    NSString* result = [NSString stringWithFormat:@"%@,%.6f,%.6f\n",dateString,x,y];
+    [_stringData appendString:result];
 }
 
 #pragma mark - AVAudioPlayerDelegate
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
     [self _sendMarker:@"Track End"];
+    if ([_screenData[CType] isEqualToString:@"Rating"]) {
+        [self _sendMarker:@"Rating Data" value:_stringData];
+    }
     [[AppService sharedInstance] newTrackData];
     [[NSNotificationCenter defaultCenter] postNotificationName:kNextScreenNotification object:self];
 }

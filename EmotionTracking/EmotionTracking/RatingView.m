@@ -7,6 +7,7 @@
 //
 
 #import "RatingView.h"
+#import "BaseView.h"
 
 @interface RatingView ()
 
@@ -198,7 +199,9 @@
     yP = fminf(1.0, yP);
     yP = fmaxf(-1.0, yP);
     NSLog(@"%f %f",xP,yP);
+    
     //[[DataManager sharedInstance] appendDataX:xP Y:yP description:@""];
+    [_parentVC appendDataX:xP Y:yP];
 }
 
 - (void)moveMouse {

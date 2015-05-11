@@ -104,7 +104,7 @@ static AppService *sharedInstance = nil;
     NSString *file;
     NSString *fullFilePath;
     while (file = [dirEnum nextObject]) {
-        if ([[file pathExtension] isEqualToString: @"mp3"]||[[file pathExtension] isEqualToString: @"wav"]) {
+        if (([[file pathExtension] isEqualToString: @"mp3"]||[[file pathExtension] isEqualToString: @"wav"])&&![file containsString:@"demo"]) {
             // process the document
             fullFilePath = [_tracksFolder stringByAppendingPathComponent:file];
             [_trackURLs addObject:[NSURL fileURLWithPath:fullFilePath]];
@@ -118,6 +118,9 @@ static AppService *sharedInstance = nil;
 }
 
 - (NSURL *)nextTrack {
+    if (_screenData[_currentScreenIndex][@"Track Name"]) {
+        return [NSURL fileURLWithPath:[_tracksFolder stringByAppendingPathComponent:_screenData[_currentScreenIndex][@"Track Name"]]];
+    }
     NSURL *url = _shuffledTrackURLs[_currentTrackIndex];
     NSLog(@"Track Index %d",_currentTrackIndex);
     _currentTrackIndex++;

@@ -33,11 +33,14 @@ typedef NSUInteger EEState;
     
     AVAudioPlayer *_player;
     NSDictionary* _screenData;
+    NSMutableString *_stringData;
 }
 
 @property (strong) IBOutlet RatingView* ratingView;
 @property (strong) IBOutlet NSTextField *mainText;
 @property (strong) IBOutlet NSTextField *subText;
 @property (strong) IBOutlet ProgressView *progressbar;
+
+- (void)appendDataX:(float)x Y:(float)y;
 
 @end
