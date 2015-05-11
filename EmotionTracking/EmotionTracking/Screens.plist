@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<string>45</string>
+			<key>Text</key>
+			<string>Welcome to the music and emotion experiment. You are going to listen a set of musical excerpts and you will have to rate your emotional experience while you are listening each piece</string>
+		</dict>
+		<key>Progress Type</key>
+		<string>Double Tap</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Please double tap to continue to the experiment
+</string>
+		</dict>
+		<key>Type</key>
+		<string>Welcome</string>
+	</dict>
+	<dict>
+		<key>Main Text</key>
+		<dict>
+			<key>DoubleTap</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>33</integer>
+			<key>Text</key>
+			<string>Make yourself comfortable. While listening to the music please look at the cross at the screen and try not to move or blink your eyes. After you listen to each music excerpt we will ask you to rate on a scale of 1 (very low) to 7 (very strong) the presence of four emotions: happiness, anger, serenity and sadness. The experiment will start with recording your baseline state for 2 minutes. Try not to move while we are recording your baseline</string>
+		</dict>
+		<key>Progress Type</key>
+		<string>Double Tap</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Please tap twice to continue
+</string>
+		</dict>
+		<key>Type</key>
+		<string>Instruction</string>
+	</dict>
+	<dict>
+		<key>Sub Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Please double tap to start the trial</string>
+		</dict>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>The next piece is used as a trial to make you more familiar with the experiment and it will not be used for further analysis.</string>
+		</dict>
+		<key>Progress Type</key>
+		<string>Double Tap</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Rating</string>
+		<key>Progress Type</key>
+		<string>Track</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<string>35</string>
+			<key>Text</key>
+			<string>Take a short break to rest. Please do not remove any of the sensors</string>
+		</dict>
+		<key>Progress Type</key>
+		<string>Double Tap</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Tap twice if you want to resume the experiment or wait un2l the break is over</string>
+		</dict>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Please relax and look at the cross in the screen. Try not to move while we are recording your baseline for 1 minutes</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>60</integer>
+		<key>Progress Hidden</key>
+		<false/>
+		<key>Progress Type</key>
+		<string>Baseline</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<true/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Your baseline is now being recorded</string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Interval</key>
+		<integer>5</integer>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>35</integer>
+			<key>Text</key>
+			<string>Thank you for not moving now the music listening experiment will start. Please try while listening to the music not to move or blink your eyes and look at the cross in the screen</string>
+		</dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Time</string>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+	<dict>
+		<key>Progress Hidden</key>
+		<true/>
+		<key>Progress Type</key>
+		<string>Track</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Blink</key>
+			<false/>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>Type</key>
+		<string>Cross</string>
+	</dict>
+	<dict>
+		<key>Main Text</key>
+		<dict>
+			<key>Font Size</key>
+			<string>45</string>
+			<key>Text</key>
+			<string>he experiment has ended thank you for your participation !</string>
+		</dict>
+		<key>Progress Type</key>
+		<string>Double Tap</string>
+		<key>Sub Text</key>
+		<dict>
+			<key>Font Size</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string>Please tap twice to exit the program</string>
+		</dict>
+		<key>Type</key>
+		<string>Content</string>
+	</dict>
+</array>
+</plist>

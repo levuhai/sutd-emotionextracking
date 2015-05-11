@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70C8ACE1B009B2F009E8385 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C8ACD1B009B2F009E8385 /* RatingView.m */; };
+		D7B1C8181B0071FA0018777A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C8171B0071FA0018777A /* AppDelegate.m */; };
+		D7B1C81A1B0071FA0018777A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C8191B0071FA0018777A /* main.m */; };
+		D7B1C81C1B0071FA0018777A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C81B1B0071FA0018777A /* Images.xcassets */; };
+		D7B1C81F1B0071FA0018777A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C81D1B0071FA0018777A /* MainMenu.xib */; };
+		D7B1C82B1B0071FB0018777A /* EmotionTrackingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C82A1B0071FB0018777A /* EmotionTrackingTests.m */; };
+		D7B1C83F1B0072CD0018777A /* MouseEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C8381B0072CD0018777A /* MouseEventView.m */; };
+		D7B1C8401B0072CD0018777A /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C83A1B0072CD0018777A /* NSMutableArray+Shuffling.m */; };
+		D7B1C8411B0072CD0018777A /* NSTextField+AnimatedSetString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C83C1B0072CD0018777A /* NSTextField+AnimatedSetString.m */; };
+		D7B1C8421B0072CD0018777A /* NSView+NibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C83E1B0072CD0018777A /* NSView+NibLoading.m */; };
+		D7B1C8461B0072E10018777A /* AppService.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C8441B0072E10018777A /* AppService.mm */; };
+		D7B1C8491B0073A60018777A /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C8481B0073A60018777A /* BaseView.m */; };
+		D7B1C84C1B0073B40018777A /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1C84B1B0073B40018777A /* ProgressView.m */; };
+		D7B1C8501B0073C50018777A /* Content.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C84E1B0073C50018777A /* Content.xib */; };
+		D7B1C8511B0073C50018777A /* Cross.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C84F1B0073C50018777A /* Cross.xib */; };
+		D7B1C8541B0073CE0018777A /* Rating.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C8521B0073CE0018777A /* Rating.xib */; };
+		D7B1C8551B0073CE0018777A /* Welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C8531B0073CE0018777A /* Welcome.xib */; };
+		D7B1C8571B0073DC0018777A /* Screens.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C8561B0073DC0018777A /* Screens.plist */; };
+		D7B1C8591B0075470018777A /* Instruction.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C8581B0075470018777A /* Instruction.xib */; };
+		D7B1C85C1B0075CA0018777A /* trackpad.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C85A1B0075CA0018777A /* trackpad.png */; };
+		D7B1C85D1B0075CA0018777A /* trackpad1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B1C85B1B0075CA0018777A /* trackpad1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7B1C8251B0071FB0018777A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B1C8091B0071FA0018777A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B1C8101B0071FA0018777A;
+			remoteInfo = EmotionTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D70C8ACC1B009B2F009E8385 /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
+		D70C8ACD1B009B2F009E8385 /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
+		D7B1C8111B0071FA0018777A /* EmotionTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B1C8151B0071FA0018777A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B1C8161B0071FA0018777A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7B1C8171B0071FA0018777A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7B1C8191B0071FA0018777A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7B1C81B1B0071FA0018777A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7B1C81E1B0071FA0018777A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D7B1C8241B0071FB0018777A /* EmotionTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B1C8291B0071FB0018777A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B1C82A1B0071FB0018777A /* EmotionTrackingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionTrackingTests.m; sourceTree = "<group>"; };
+		D7B1C8371B0072CD0018777A /* MouseEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseEventView.h; sourceTree = "<group>"; };
+		D7B1C8381B0072CD0018777A /* MouseEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseEventView.m; sourceTree = "<group>"; };
+		D7B1C8391B0072CD0018777A /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		D7B1C83A1B0072CD0018777A /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		D7B1C83B1B0072CD0018777A /* NSTextField+AnimatedSetString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextField+AnimatedSetString.h"; sourceTree = "<group>"; };
+		D7B1C83C1B0072CD0018777A /* NSTextField+AnimatedSetString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+AnimatedSetString.m"; sourceTree = "<group>"; };
+		D7B1C83D1B0072CD0018777A /* NSView+NibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+NibLoading.h"; sourceTree = "<group>"; };
+		D7B1C83E1B0072CD0018777A /* NSView+NibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+NibLoading.m"; sourceTree = "<group>"; };
+		D7B1C8431B0072E10018777A /* AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppService.h; sourceTree = "<group>"; };
+		D7B1C8441B0072E10018777A /* AppService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppService.mm; sourceTree = "<group>"; };
+		D7B1C8451B0072E10018777A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D7B1C8471B0073A60018777A /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		D7B1C8481B0073A60018777A /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		D7B1C84A1B0073B40018777A /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		D7B1C84B1B0073B40018777A /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		D7B1C84E1B0073C50018777A /* Content.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Content.xib; sourceTree = "<group>"; };
+		D7B1C84F1B0073C50018777A /* Cross.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cross.xib; sourceTree = "<group>"; };
+		D7B1C8521B0073CE0018777A /* Rating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Rating.xib; sourceTree = "<group>"; };
+		D7B1C8531B0073CE0018777A /* Welcome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Welcome.xib; sourceTree = "<group>"; };
+		D7B1C8561B0073DC0018777A /* Screens.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Screens.plist; sourceTree = "<group>"; };
+		D7B1C8581B0075470018777A /* Instruction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Instruction.xib; sourceTree = "<group>"; };
+		D7B1C85A1B0075CA0018777A /* trackpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackpad.png; sourceTree = "<group>"; };
+		D7B1C85B1B0075CA0018777A /* trackpad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackpad1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B1C80E1B0071FA0018777A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B1C8211B0071FB0018777A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7B1C8081B0071FA0018777A = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8131B0071FA0018777A /* EmotionTracking */,
+				D7B1C8271B0071FB0018777A /* EmotionTrackingTests */,
+				D7B1C8121B0071FA0018777A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B1C8121B0071FA0018777A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8111B0071FA0018777A /* EmotionTracking.app */,
+				D7B1C8241B0071FB0018777A /* EmotionTrackingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B1C8131B0071FA0018777A /* EmotionTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8361B0072AC0018777A /* Service */,
+				D7B1C8351B00729F0018777A /* View */,
+				D7B1C8341B0072970018777A /* Cateogry */,
+				D7B1C8161B0071FA0018777A /* AppDelegate.h */,
+				D7B1C8171B0071FA0018777A /* AppDelegate.m */,
+				D7B1C81B1B0071FA0018777A /* Images.xcassets */,
+				D7B1C81D1B0071FA0018777A /* MainMenu.xib */,
+				D7B1C8141B0071FA0018777A /* Supporting Files */,
+			);
+			path = EmotionTracking;
+			sourceTree = "<group>";
+		};
+		D7B1C8141B0071FA0018777A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C85A1B0075CA0018777A /* trackpad.png */,
+				D7B1C85B1B0075CA0018777A /* trackpad1.png */,
+				D7B1C8151B0071FA0018777A /* Info.plist */,
+				D7B1C8191B0071FA0018777A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7B1C8271B0071FB0018777A /* EmotionTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C82A1B0071FB0018777A /* EmotionTrackingTests.m */,
+				D7B1C8281B0071FB0018777A /* Supporting Files */,
+			);
+			path = EmotionTrackingTests;
+			sourceTree = "<group>";
+		};
+		D7B1C8281B0071FB0018777A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8291B0071FB0018777A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7B1C8341B0072970018777A /* Cateogry */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8561B0073DC0018777A /* Screens.plist */,
+				D7B1C8371B0072CD0018777A /* MouseEventView.h */,
+				D7B1C8381B0072CD0018777A /* MouseEventView.m */,
+				D7B1C8391B0072CD0018777A /* NSMutableArray+Shuffling.h */,
+				D7B1C83A1B0072CD0018777A /* NSMutableArray+Shuffling.m */,
+				D7B1C83B1B0072CD0018777A /* NSTextField+AnimatedSetString.h */,
+				D7B1C83C1B0072CD0018777A /* NSTextField+AnimatedSetString.m */,
+				D7B1C83D1B0072CD0018777A /* NSView+NibLoading.h */,
+				D7B1C83E1B0072CD0018777A /* NSView+NibLoading.m */,
+			);
+			name = Cateogry;
+			sourceTree = "<group>";
+		};
+		D7B1C8351B00729F0018777A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C84D1B0073BA0018777A /* Nibs */,
+				D7B1C84A1B0073B40018777A /* ProgressView.h */,
+				D7B1C84B1B0073B40018777A /* ProgressView.m */,
+				D7B1C8471B0073A60018777A /* BaseView.h */,
+				D7B1C8481B0073A60018777A /* BaseView.m */,
+				D70C8ACC1B009B2F009E8385 /* RatingView.h */,
+				D70C8ACD1B009B2F009E8385 /* RatingView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D7B1C8361B0072AC0018777A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8431B0072E10018777A /* AppService.h */,
+				D7B1C8441B0072E10018777A /* AppService.mm */,
+				D7B1C8451B0072E10018777A /* Constants.h */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D7B1C84D1B0073BA0018777A /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1C8521B0073CE0018777A /* Rating.xib */,
+				D7B1C8531B0073CE0018777A /* Welcome.xib */,
+				D7B1C84E1B0073C50018777A /* Content.xib */,
+				D7B1C84F1B0073C50018777A /* Cross.xib */,
+				D7B1C8581B0075470018777A /* Instruction.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B1C8101B0071FA0018777A /* EmotionTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B1C82E1B0071FB0018777A /* Build configuration list for PBXNativeTarget "EmotionTracking" */;
+			buildPhases = (
+				D7B1C80D1B0071FA0018777A /* Sources */,
+				D7B1C80E1B0071FA0018777A /* Frameworks */,
+				D7B1C80F1B0071FA0018777A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionTracking;
+			productName = EmotionTracking;
+			productReference = D7B1C8111B0071FA0018777A /* EmotionTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7B1C8231B0071FB0018777A /* EmotionTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B1C8311B0071FB0018777A /* Build configuration list for PBXNativeTarget "EmotionTrackingTests" */;
+			buildPhases = (
+				D7B1C8201B0071FB0018777A /* Sources */,
+				D7B1C8211B0071FB0018777A /* Frameworks */,
+				D7B1C8221B0071FB0018777A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B1C8261B0071FB0018777A /* PBXTargetDependency */,
+			);
+			name = EmotionTrackingTests;
+			productName = EmotionTrackingTests;
+			productReference = D7B1C8241B0071FB0018777A /* EmotionTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B1C8091B0071FA0018777A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hai Le";
+				TargetAttributes = {
+					D7B1C8101B0071FA0018777A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D7B1C8231B0071FB0018777A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D7B1C8101B0071FA0018777A;
+					};
+				};
+			};
+			buildConfigurationList = D7B1C80C1B0071FA0018777A /* Build configuration list for PBXProject "EmotionTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B1C8081B0071FA0018777A;
+			productRefGroup = D7B1C8121B0071FA0018777A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B1C8101B0071FA0018777A /* EmotionTracking */,
+				D7B1C8231B0071FB0018777A /* EmotionTrackingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B1C80F1B0071FA0018777A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B1C8551B0073CE0018777A /* Welcome.xib in Resources */,
+				D7B1C85D1B0075CA0018777A /* trackpad1.png in Resources */,
+				D7B1C8511B0073C50018777A /* Cross.xib in Resources */,
+				D7B1C85C1B0075CA0018777A /* trackpad.png in Resources */,
+				D7B1C8591B0075470018777A /* Instruction.xib in Resources */,
+				D7B1C8501B0073C50018777A /* Content.xib in Resources */,
+				D7B1C81C1B0071FA0018777A /* Images.xcassets in Resources */,
+				D7B1C8571B0073DC0018777A /* Screens.plist in Resources */,
+				D7B1C8541B0073CE0018777A /* Rating.xib in Resources */,
+				D7B1C81F1B0071FA0018777A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B1C8221B0071FB0018777A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B1C80D1B0071FA0018777A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B1C8401B0072CD0018777A /* NSMutableArray+Shuffling.m in Sources */,
+				D7B1C81A1B0071FA0018777A /* main.m in Sources */,
+				D7B1C84C1B0073B40018777A /* ProgressView.m in Sources */,
+				D70C8ACE1B009B2F009E8385 /* RatingView.m in Sources */,
+				D7B1C8421B0072CD0018777A /* NSView+NibLoading.m in Sources */,
+				D7B1C8491B0073A60018777A /* BaseView.m in Sources */,
+				D7B1C83F1B0072CD0018777A /* MouseEventView.m in Sources */,
+				D7B1C8461B0072E10018777A /* AppService.mm in Sources */,
+				D7B1C8181B0071FA0018777A /* AppDelegate.m in Sources */,
+				D7B1C8411B0072CD0018777A /* NSTextField+AnimatedSetString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B1C8201B0071FB0018777A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B1C82B1B0071FB0018777A /* EmotionTrackingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7B1C8261B0071FB0018777A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B1C8101B0071FA0018777A /* EmotionTracking */;
+			targetProxy = D7B1C8251B0071FB0018777A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7B1C81D1B0071FA0018777A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B1C81E1B0071FA0018777A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B1C82C1B0071FB0018777A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7B1C82D1B0071FB0018777A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7B1C82F1B0071FB0018777A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EmotionTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7B1C8301B0071FB0018777A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EmotionTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7B1C8321B0071FB0018777A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionTracking.app/Contents/MacOS/EmotionTracking";
+			};
+			name = Debug;
+		};
+		D7B1C8331B0071FB0018777A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionTracking.app/Contents/MacOS/EmotionTracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B1C80C1B0071FA0018777A /* Build configuration list for PBXProject "EmotionTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1C82C1B0071FB0018777A /* Debug */,
+				D7B1C82D1B0071FB0018777A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B1C82E1B0071FB0018777A /* Build configuration list for PBXNativeTarget "EmotionTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1C82F1B0071FB0018777A /* Debug */,
+				D7B1C8301B0071FB0018777A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B1C8311B0071FB0018777A /* Build configuration list for PBXNativeTarget "EmotionTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1C8321B0071FB0018777A /* Debug */,
+				D7B1C8331B0071FB0018777A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B1C8091B0071FA0018777A /* Project object */;
+}
