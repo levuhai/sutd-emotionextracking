@@ -104,7 +104,7 @@ static AppService *sharedInstance = nil;
     NSString *file;
     NSString *fullFilePath;
     while (file = [dirEnum nextObject]) {
-        if (([[file pathExtension] isEqualToString: @"mp3"]||[[file pathExtension] isEqualToString: @"wav"])&&(![file isEqualToString:@"demo.mp3"]||![file isEqualToString:@"demo.wav"])) {
+        if (([[file pathExtension] isEqualToString: @"mp3"]||[[file pathExtension] isEqualToString: @"wav"])&&![file isEqualToString:@"demo.mp3"]&&![file isEqualToString:@"demo.wav"]) {
             // process the document
             fullFilePath = [_tracksFolder stringByAppendingPathComponent:file];
             [_trackURLs addObject:[NSURL fileURLWithPath:fullFilePath]];
